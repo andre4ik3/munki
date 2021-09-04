@@ -36,7 +36,7 @@ class MSCStatusController: NSObject {
         center.addObserver(self,
                            selector: #selector(self.updateStatus),
                            name: NSNotification.Name(
-                                rawValue: "com.googlecode.munki.managedsoftwareupdate.statusUpdate"),
+                                rawValue: "dev.andre4ik3.managed.munki.managedsoftwareupdate.statusUpdate"),
                            object: nil,
                            suspensionBehavior: .deliverImmediately)
         receiving_notifications = true

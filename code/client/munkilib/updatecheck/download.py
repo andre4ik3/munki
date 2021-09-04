@@ -469,7 +469,7 @@ def uncache(space_needed_in_kb):
                 "Could not remove precached item %s: %s" % (item_path, err))
 
 
-PRECACHING_AGENT_LABEL = "com.googlecode.munki.precache_agent"
+PRECACHING_AGENT_LABEL = "dev.andre4ik3.managed.munki.precache_agent"
 
 def run_precaching_agent():
     '''Kick off a run of our precaching agent, which allows the precaching to

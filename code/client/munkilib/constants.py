@@ -48,9 +48,9 @@ LOGINWINDOW = (
     '/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow')
 
 CHECKANDINSTALLATSTARTUPFLAG = (
-    '/Users/Shared/.com.googlecode.munki.checkandinstallatstartup')
-INSTALLATSTARTUPFLAG = '/Users/Shared/.com.googlecode.munki.installatstartup'
-INSTALLATLOGOUTFLAG = '/private/tmp/com.googlecode.munki.installatlogout'
+    '/Users/Shared/.dev.andre4ik3.managed.munki.checkandinstallatstartup')
+INSTALLATSTARTUPFLAG = '/Users/Shared/.dev.andre4ik3.managed.munki.installatstartup'
+INSTALLATLOGOUTFLAG = '/private/tmp/dev.andre4ik3.managed.munki.installatlogout'
 
 # postinstall actions
 POSTACTION_NONE = 0
